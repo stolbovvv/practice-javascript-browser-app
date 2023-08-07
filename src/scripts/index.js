@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   movieDB.movies.sort();
 
-  movieDB.movies.forEach((filme, index) => {
-    movieList.innerHTML += `<li class="promo__interactive-item">${index + 1}. ${filme}<div class="delete"></div></li>`;
+  movieDB.movies.forEach((film, index) => {
+    movieList.innerHTML += `<li class="promo__interactive-item">${index + 1}. ${film}<div class="delete"></div></li>`;
   });
 });
